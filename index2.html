@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About India</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<style>
+		*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 100%;
+     height: 50%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+	 color:black;
+	 background-color:white;
+    }
+
+.card:hover{
+	transform:scale(1.3)
+}
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: relative;
+}
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center; 
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+header{
+    width:100%;
+    height:100vh;  
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('./Images/water.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+	</style>
+</head>
+<body>
+	
+    <header>
+        <nav>
+            <div><a class= "logo" href="index.html">India</a></div> 
+            <div class="menu">
+                <a href="file:index3.html" class="link">About us</a>
+                <a href="file:index2.html" class="link">locations</a>
+                <a href="https://www.tripadvisor.in/" class="link">Book Now</a>
+            </div>
+        </nav>
+        <main>
+            <!--Card 1-->
+			<div class="card">
+				<div class="image">
+				<img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/09/Red-Fort.jpg">
+				</div>
+				<div class="card-text">
+				<div class="title">
+				<h1>Red Fort</h1>
+				</div>
+				<div class="des">
+        <button onclick="location.href='https://en.wikipedia.org/wiki/Red_Fort'" type="button">
+          Read More...</button>
+				</div>
+				</div>
+			</div>
+			<!--Card 2-->
+			<div class="card">
+				<div class="image">
+				<img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Taj-mahal.jpg">
+				</div>
+				<div class="card-text">
+				<div class="title">
+				<h1>Taj Mahal</h1>
+				</div>
+				<div class="des">
+        <button onclick="location.href='https://en.wikipedia.org/wiki/Taj_Mahal'" type="button">
+          Read More...</button>
+				</div>
+				</div>
+			</div>
+      <!--card 3-->
+      <div class="card">
+				<div class="image">
+				<img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/04/Manali1-1.jpg">
+				</div>
+				<div class="card-text">
+				<div class="title">
+				<h1>Kullu and Manali</h1>
+				</div>
+				<div class="des">
+
+        <button onclick="location.href='https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh'" type="button">
+          Read More...</button>
+        
+				</div>
+				</div>
+			</div>
+      <!--card 4-->
+      <div class="card">
+				<div class="image">
+				<img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Mussoorie1.jpg">
+				</div>
+				<div class="card-text">
+				<div class="title">
+				<h1>Mussoorie and Dehradun</h1>
+				</div>
+				<div class="des">
+        <button onclick="location.href='https://en.wikipedia.org/wiki/Mussoorie'" type="button">
+          Read More...</button>
+				</div>
+				</div>
+			</div>
+      <!--card 5-->
+      <div class="card">
+				<div class="image">
+				<img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Jim-Corbett.jpg">
+				</div>
+				<div class="card-text">
+				<div class="title">
+				<h1>Jim Corbett National Park</h1>
+				</div>
+				<div class="des">
+        <button onclick="location.href='https://en.wikipedia.org/wiki/Jim_Corbett_National_Park'" type="button">
+          Read More...</button>
+				</div>
+				</div>
+			</div>
+      
+    </header>
+</body>
+</html>
